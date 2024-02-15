@@ -1,3 +1,4 @@
+/* _____CONFIGURAÇÔES GLOBAIS_________ */
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +14,9 @@ body {
     background: #34495e;
     /* color: #fff; */
 }
+/* _____CONFIGURAÇÔES GLOBAIS_________ */
 
+/* _________MENU SUPERIOR___________ */
 .ftop {
     position: fixed;
     top: 0;
@@ -103,8 +106,9 @@ body {
     width: 100px;
     left: 450px;
 }
+/* _________MENU SUPERIOR___________ */
 
-/* ___________SLides___________ */
+/* ___________Slides___________ */
 
 .carrosel {
     margin: 0 auto;
@@ -207,11 +211,9 @@ body {
 #radio3:checked ~ .auto .auto-btn3{
     background: #1b50fc;
 }
-
 /* ________________SLIDES____________ */
 
 /* _____________CARD SLIDES___________ */
-
 .card-slider{
     margin: 0 auto;
     max-width: 1120px;
@@ -299,6 +301,7 @@ body {
     color: #707070;
     text-align: center;
 }
+/* _____________CARD SLIDES___________ */
 
 /* __________________CALENDARIO________________ */
 .calendario{
@@ -442,6 +445,7 @@ body {
   }
   /* __________________CALENDARIO________________ */
 
+  /* ______RODAPE_______ */
   .rodape{
     display: grid;
     /* background-color: #fff; */
@@ -480,3 +484,4 @@ body {
     color: #FFF;
     margin: 15px 100px;
 }
+/* ______RODAPE_______ */
